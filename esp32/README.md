@@ -71,7 +71,7 @@ esp32/
 pio run --target upload
 ```
 - Make sure ESP32 is connected via USB
-- Serial monitor: pio device monitor
+- Serial monitor: `pio device monitor`
 
 ---
 
