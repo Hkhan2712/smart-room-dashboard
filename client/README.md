@@ -26,6 +26,7 @@ Built with **Svelte + TypeScript + TailwindCSS + DaisyUI** to provide a modern, 
 ---
 
 ## 📂 Project Structure
+```
 client/
 ├── public/
 ├── src/
@@ -38,6 +39,7 @@ client/
 ├── package.json
 ├── tailwind.config.js
 └── README.md
+```
 --- 
 
 ## 🚀 Getting Started
