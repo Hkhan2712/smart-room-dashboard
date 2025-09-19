@@ -54,7 +54,7 @@ server/
 ### 1️⃣ Install dependencies
 ```bash
 cd server
-npm install
+yarn install
 ```
 
 ### 2️⃣ Start MongoDB (Docker)
