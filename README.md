@@ -1,7 +1,7 @@
 # 🏠 Smart Room Dashboard
 
-[![GitHub stars](https://img.shields.io/github/stars/Hkhan2712/smart-room-dashboard?style=flat-square)](https://github.com/your-username/smart-room-dashboard/stargazers)
-[![GitHub issues](https://img.shields.io/github/issues/Hkhan2712/smart-room-dashboard?style=flat-square)](https://github.com/your-username/smart-room-dashboard/issues)
+[![GitHub stars](https://img.shields.io/github/stars/Hkhan2712/smart-room-dashboard?style=flat-square)](https://github.com/Hkhan2712/smart-room-dashboard/stargazers)
+[![GitHub issues](https://img.shields.io/github/issues/Hkhan2712/smart-room-dashboard?style=flat-square)](https://github.com/Hkhan2712/smart-room-dashboard/issues)
 [![GitHub license](https://img.shields.io/github/license/Hkhan2712/smart-room-dashboard?style=flat-square)](./LICENSE)
 A **mini IoT project** for monitoring and controlling a smart room environment using **ESP32 + MQTT + Web Dashboard + Backend Server**.  
 
@@ -104,7 +104,7 @@ Server -> http://localhost:3000
 ```mermaid
 flowchart LR
     ESP32((ESP32)) -- MQTT --> Mosquitto((Mosquitto Broker))
-    Mosquitto -- MQTT --> Client[Web Dashboard (Svelte)]
+    Mosquitto -- MQTT --> Client[Web Dashboard - Svelte]
     Mosquitto -- MQTT --> Server[Express Server]
     Server -- REST API --> Client
     Server -- DB --> MongoDB[(MongoDB)]
@@ -127,7 +127,7 @@ Feel free to open a PR or an issue.
 
 ---
  
-###📜 License
+### 📜 License
 
 This project is licensed under the [MIT License]().
 
