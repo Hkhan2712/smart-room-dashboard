@@ -26,20 +26,18 @@ Built with **Svelte + TypeScript + TailwindCSS + DaisyUI** to provide a modern, 
 ---
 
 ## 📂 Project Structure
-
 client/
-|-- public/
-│── src/
-│ ├── lib/ 
-| |-- components/ 
+├── public/
+├── src/
+│ ├── lib/
+│ ├── components/
 │ ├── routes/ # pages and routing
 │ ├── styles/ # Tailwind & DaisyUI config
 │ └── main.ts # entrypoint
-│── static/ # static assets
-│── package.json
-│── tailwind.config.js
-│── README.md
-
+├── static/ # static assets
+├── package.json
+├── tailwind.config.js
+└── README.md
 --- 
 
 ## 🚀 Getting Started
